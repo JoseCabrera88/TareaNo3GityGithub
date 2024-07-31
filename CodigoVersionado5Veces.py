@@ -1,4 +1,6 @@
 def sumar(a, b):
     return a + b
 
-print(sumar(8, 2))
+a = int(input("Ingresa el primer número: "))
+b = int(input("Ingresa el segundo número: "))
+print(sumar(a, b))
