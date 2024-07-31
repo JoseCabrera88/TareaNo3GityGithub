@@ -1,4 +1,4 @@
-a = 8
-b = 2
-Suma = a + b
-print(Suma)
+def sumar(a, b):
+    return a + b
+
+print(sumar(8, 2))
